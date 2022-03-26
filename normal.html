@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		a:hover{
+ 				color:blue;
+ 				text-decoration: underline;
+ 				font-size:20px;
+ 				background-color: black;
+ 			}
+	</style>
+	<title>  toggle menu</title>
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+
+	<script type="text/javascript">
+		
+function togglemenu() {
+	document.getElementByid('sidebar').classList.toggle('active');
+	
+}
+
+
+
+
+	</script>
+
+</head>
+<body>
+<div id="sidebar" onclick="togglemenu()">
+	
+
+
+<div class="toggle-btn">
+	
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<ul><a href="#"> Home</a></ul>
+<ul><a href="#"> Contact us</a></ul>
+<ul><a href="#"> About us</a></ul>
+<ul><a href="#"> Gallery</a></ul>
+<ul><a href="#"> Dashboard</a></ul>
+
+</div>
+
+
+</body>
+</html>

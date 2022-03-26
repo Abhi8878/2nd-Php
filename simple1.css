@@ -1,0 +1,47 @@
+@import url(https://weloveiconfonts.com/api/?family=poppins);
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-sarif;
+	float: center;
+}
+html,body{
+	display: grid;
+	height: 100px;
+	width: 100px;
+	
+
+   
+}
+.wrapper{
+	display: inline-flex;
+	  
+}
+.wrapper .icon{
+	margin: 0 20px;
+	cursor: pointer;
+}
+.wrapper .icon span{
+
+	height: 60px;
+	width: 60px;
+	display: block;
+
+	text-align: center;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.wrapper .icon span i{
+	font-size: 25px;
+	line-height: 60px;
+}
+.wrapper .icon .tooltrip{
+	background: darkgreen;
+	font-size: 20px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+	padding: 10px 18px;
+	border-radius: 25px;
+
+}
